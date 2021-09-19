@@ -16,19 +16,31 @@
     text-align: center;
 }
 
-.Nav-Links {
-    display: flex;
-
-}
-
 .Nav-Links ul {
     list-style-type: none;
 }
 
-
 .Nav-Bar ul li a {
     text-decoration: none;
-    color: black;
     display: flex;
-    justify-content: flex-end;
+    font-size: 30px;
+    color: rgb(153, 163, 13);
+    padding: 10px 0 10px 0;
+}
+
+.profile {
+    border: 1px solid red;
+}
+
+.applications{
+    border: 1px solid green;
+    min-height: 10px;
+}
+
+.applications div {
+    border: 1px solid yellow;
+}
+
+.Contact {
+    border: 1px solid purple;
 }
