@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+body {
+    background-color: teal;
+}
+
+/* Nav Bar */
+
 .Nav-Bar {
     border: 1px solid blue;
     display: flex;
@@ -28,9 +34,14 @@
     padding: 10px 0 10px 0;
 }
 
-.profile {
+/* About Me Section*/
+
+.Profile {
     border: 1px solid red;
+    text-align: center;
 }
+
+
 
 .applications{
     border: 1px solid green;
