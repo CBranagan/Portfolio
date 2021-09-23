@@ -40,26 +40,30 @@ body {
 
 /*My Work Styling*/
 
-.applications {
+#My-Work {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+#My-Work a {
+    text-decoration: none;
     color: white;
 }
 
-
-.applications div {
+.application1 .application2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
-.applications img {
+.application2 img {
     width: 100%;
     height: auto;
 }
 
-.applications h2 {
+.application2 h2 {
     font-size: 30px;
     text-align: center;
 }
