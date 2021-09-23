@@ -11,15 +11,12 @@ body {
 /* Nav Bar */
 
 .Nav-Bar {
-    border: 1px solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-}
-
-.Name {
-    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .Nav-Links ul {
@@ -30,26 +27,39 @@ body {
     text-decoration: none;
     display: flex;
     font-size: 30px;
-    color: rgb(153, 163, 13);
+    color: white;
     padding: 10px 0 10px 0;
 }
 
 /* About Me Section*/
 
 .Profile {
-    border: 1px solid red;
     text-align: center;
+    color: white;
 }
 
-.applications{
-    border: 1px solid green;
-    min-height: 10px;
+/*My Work Styling*/
+
+.applications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
 }
+
 
 .applications div {
-    border: 1px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.Contact {
-    border: 1px solid purple;
+.applications img {
+    width: 100%;
+    height: auto;
+}
+
+.applications h2 {
+    font-size: 30px;
+    text-align: center;
 }
