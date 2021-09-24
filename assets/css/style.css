@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: teal;
+    background-color: white;
 }
 
 /* Nav Bar */
@@ -15,8 +15,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    background-color: black;
-    color: white;
+    color: black;
 }
 
 .Nav-Links ul {
@@ -27,7 +26,7 @@ body {
     text-decoration: none;
     display: flex;
     font-size: 30px;
-    color: white;
+    color: black;
     padding: 10px 0 10px 0;
 }
 
@@ -35,7 +34,7 @@ body {
 
 .Profile {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 /*My Work Styling*/
@@ -48,19 +47,35 @@ body {
 
 #My-Work a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
-.application1 .application2 {
+.application2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    max-width: 25%;
+}
+
+.application1 {
+    min-width: 100%;
+    height: auto;
+    font-size: 100px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.application1 img {
+    min-height: 400px;
+    min-width: auto;
 }
 
 .application2 img {
-    width: 100%;
-    height: auto;
+    max-height: 300px;
+    width: auto;
+    
 }
 
 .application2 h2 {
