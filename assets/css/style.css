@@ -18,17 +18,32 @@ body {
     justify-content: space-around;
     width: 100%;
     color: white;
+    position: fixed;
 }
 
 h1 {
     font-size: 60px;
-    margin-bottom: 20px;
     display: flex;
-    align-items: center;
+    align-items: end;
+    margin: auto;
+}
+.Nav-Links {
+    display: flex;
+    flex-wrap: wrap;    
 }
 
 .Nav-Links ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Nav-Links ul li {
+    display: flex;
+    justify-content: end;
 }
 
 .Nav-Bar ul li a {
@@ -40,6 +55,14 @@ h1 {
 }
 
 /* About Me Section*/
+.about-me-box {
+    min-height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 300px;
+}
 
 .Profile {
     background-color: black;
@@ -116,6 +139,10 @@ footer {
     background-color: black;
     padding: 5px;
     margin-top: 20px;
+}
+
+.address-box {
+    min-height: 100px;
 }
 
 .address {
