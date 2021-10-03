@@ -18,7 +18,7 @@ body {
     justify-content: space-around;
     width: 100%;
     color: white;
-    position: fixed;
+    
 }
 
 h1 {
@@ -61,7 +61,6 @@ h1 {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin-top: 300px;
 }
 
 .Profile {
